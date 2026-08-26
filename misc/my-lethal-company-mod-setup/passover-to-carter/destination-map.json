@@ -1,0 +1,47 @@
+﻿{
+    "version":  1,
+    "profilePayload":  [
+                           {
+                               "source":  "profile\\BepInEx\\config",
+                               "destination":  "BepInEx\\config",
+                               "mode":  "replace-directory"
+                           },
+                           {
+                               "source":  "profile\\BepInEx\\Custom Songs",
+                               "destination":  "BepInEx\\Custom Songs",
+                               "mode":  "replace-directory"
+                           },
+                           {
+                               "source":  "profile\\BepInEx\\plugins\\BGN-PizzaTowerEscapeMusic\\DefaultMusic",
+                               "destination":  "BepInEx\\plugins\\BGN-PizzaTowerEscapeMusic\\DefaultMusic",
+                               "mode":  "replace-directory"
+                           },
+                           {
+                               "source":  "profile\\BepInEx\\plugins\\BGN-PizzaTowerEscapeMusic\\DefaultScripts",
+                               "destination":  "BepInEx\\plugins\\BGN-PizzaTowerEscapeMusic\\DefaultScripts",
+                               "mode":  "replace-directory"
+                           },
+                           {
+                               "source":  "profile\\BepInEx\\plugins\\Koukycola-KoukysCustomSounds\\CustomSounds\\KoukysCustomSounds",
+                               "destination":  "BepInEx\\plugins\\Koukycola-KoukysCustomSounds\\CustomSounds\\KoukysCustomSounds",
+                               "mode":  "replace-directory"
+                           }
+                       ],
+    "sharedPayload":  [
+                          {
+                              "source":  "shared\\terminal-videos",
+                              "destinations":  [
+                                                   "BepInEx\\plugins\\Television Videos",
+                                                   "BepInEx\\plugins\\darmuh-darmuhsTerminalVideos"
+                                               ],
+                              "mode":  "replace-directory"
+                          }
+                      ],
+    "externalPayload":  [
+                            {
+                                "source":  "external\\TooManyEmotes_LocalSaveData",
+                                "destination":  "%USERPROFILE%\\AppData\\LocalLow\\ZeekerssRBLX\\Lethal Company\\TooManyEmotes_LocalSaveData",
+                                "mode":  "replace-file"
+                            }
+                        ]
+}

@@ -1,0 +1,2003 @@
+﻿{
+    "schema":  1,
+    "generated":  "2026-08-26T03:52:56.6841815-07:00",
+    "profile":  "Default-extras",
+    "modCount":  399,
+    "mods":  [
+                 {
+                     "name":  "4902-Cruiser_Additions",
+                     "version":  "1.4.10",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "8-BrackenReworked",
+                     "version":  "2.9.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "AdiBTW-Loadstone",
+                     "version":  "0.1.24",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "AinaVT-LethalConfig",
+                     "version":  "1.4.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "akechii-DiscountAlert",
+                     "version":  "2.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AlexCodesGames-AdditionalContentFramework",
+                     "version":  "1.0.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AlexCodesGames-AdditionalSuits",
+                     "version":  "2.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Alice-DungeonGenerationPlus",
+                     "version":  "1.5.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Alice-ScarletDevilMansion",
+                     "version":  "2.4.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "aloneluvsya-Alones_TooManyEmotes",
+                     "version":  "1.0.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AMRV-ConfigurableCompany",
+                     "version":  "3.7.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "AMRV-LethalCompanyVariables",
+                     "version":  "2.7.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "anormaltwig-LateCompany",
+                     "version":  "1.0.18",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "AntlerShed-EnemySkinKit",
+                     "version":  "1.4.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AntlerShed-EnemySkinRegistry",
+                     "version":  "1.5.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "atapono02-Defectus",
+                     "version":  "1.3.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ATK-ShipClock",
+                     "version":  "0.9.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AtomicStudio-Moved_Magnet_Switch",
+                     "version":  "1.5.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AudioKnight-Auralis",
+                     "version":  "4.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AudioKnight-Solace",
+                     "version":  "4.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AudioKnight-StarlancerAIFix",
+                     "version":  "3.13.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AudioKnight-StarlancerMoons",
+                     "version":  "4.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AudioKnight-StarlancerZero",
+                     "version":  "4.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "AudioKnight-Triskelion",
+                     "version":  "4.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Azim-LethalPresents",
+                     "version":  "1.0.9",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Badham_Mods-SCPFoundationDungeon",
+                     "version":  "4.3.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "BaronDrakula-MoreCounterplay",
+                     "version":  "1.5.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "BatiSanka-YoutubeOnTV",
+                     "version":  "0.2.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "bcs4313-Cyber_Truck",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "bcs4313-Soul_Devourer_Enemy",
+                     "version":  "1.3.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Beaniebe-85_Reign",
+                     "version":  "1.3.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Beaniebe-Beanie_Lib",
+                     "version":  "1.0.9",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Beaniebe-Beanies_Furniture",
+                     "version":  "1.0.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Beaniebe-Deepcore_Mines",
+                     "version":  "1.0.9",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Beaniebe-Liminal_House",
+                     "version":  "1.1.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Beaniebe-Midnight_Sanctuary",
+                     "version":  "1.1.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Beaniebe-Storage_Complex",
+                     "version":  "1.2.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Beaniebe-Vehicle_Hangar",
+                     "version":  "1.2.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "BepInEx-BepInExPack",
+                     "version":  "5.4.2305",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "BGN-PizzaTowerEscapeMusic",
+                     "version":  "2.5.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "BilliardHorn-Billiard_Vapes",
+                     "version":  "1.2.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "BLB_Thunderstore_Mods_LOL-Boom_Vehicles",
+                     "version":  "1.4.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "bloodystool-CumPack",
+                     "version":  "1.0.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Blubbpaule-RestoreVanillaVision",
+                     "version":  "1.2.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Bobbie-NAudio",
+                     "version":  "2.2.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Bobbie-UniTask",
+                     "version":  "2.5.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Bub-RunningSkeletonJumpscare",
+                     "version":  "1.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "ButteryStancakes-AccurateStaminaDisplay",
+                     "version":  "2.2.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-ArtificeBlizzard",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-BarberFixes",
+                     "version":  "1.3.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-ButteRyBalance",
+                     "version":  "0.7.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-ButteryFixes",
+                     "version":  "1.17.17",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-Chameleon",
+                     "version":  "2.4.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-ClassicSuitRestoration",
+                     "version":  "2.1.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-EnemySoundFixes",
+                     "version":  "1.9.15",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-JetpackFixes",
+                     "version":  "1.6.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-MaskFixes",
+                     "version":  "1.6.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-MeleeFixes",
+                     "version":  "1.5.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-RevisitStingers",
+                     "version":  "1.3.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-SpawnCycleFixes",
+                     "version":  "1.2.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-UpturnedVariety",
+                     "version":  "2.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ButteryStancakes-VentSpawnFix",
+                     "version":  "1.2.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "ButteryStancakes-WeedKillerFixes",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Cabinet_crew-TheCabinet",
+                     "version":  "1.12.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Ccode_lang-SirenHead",
+                     "version":  "2.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Ccode_lang-The_Rolling_Chair",
+                     "version":  "1.0.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Ceelery-Kast",
+                     "version":  "1.0.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "CHILLAX-ChillaxSCRAPS",
+                     "version":  "0.8.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "chuxiaaaa-LethalError",
+                     "version":  "1.0.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Clementinise-CustomSounds",
+                     "version":  "2.3.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ControlCompany-ControlCompany",
+                     "version":  "1.3.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ControlCompany-ControlCompanyFilter",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "CoolLKK_Group-Log_Backup",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "COREsEND-Castellum_Carnis",
+                     "version":  "1.1.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "COREsEND-The_Flesh_Stalker",
+                     "version":  "1.0.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Crafty-LunarConfig",
+                     "version":  "0.4.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Danielus-1018_Monarch",
+                     "version":  "1.0.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Darkbrewery-Emblem",
+                     "version":  "1.6.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "darmuh-darmuhsTerminalStuff",
+                     "version":  "3.10.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "darmuh-LethalConstellations",
+                     "version":  "0.3.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "darmuh-OpenLib",
+                     "version":  "0.4.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DarthLilo-LevelMusicLib",
+                     "version":  "1.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DaXcess-NoJumpDelay",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DaXcess-NoMoreCompanyLogo",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DBJ-ILUtils",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DBJ-LC_GiftBox_Config",
+                     "version":  "1.2.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DBJ-LCUtils",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "debit_card_debit-RuntimeIcons_BetterRotations",
+                     "version":  "1.2.16",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DemonMae-Black_Fog_Weather",
+                     "version":  "1.1.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DemonMae-Cyberworld_Interior",
+                     "version":  "1.7.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DemonMae-SubSystems_Interior",
+                     "version":  "1.6.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DemonMae-ut99_interiors",
+                     "version":  "1.15.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "den-Meltdown_Chance",
+                     "version":  "2.8.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Dev1A3-BetterVehicleControls",
+                     "version":  "1.1.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Dev1A3-LethalFixes",
+                     "version":  "1.3.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Dev1A3-LobbyImprovements",
+                     "version":  "1.1.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Dev1A3-YesFox",
+                     "version":  "1.1.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DeviousEquine-Company_Globes",
+                     "version":  "1.1.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Dewniel-Piggys_Variety_Mod_Fork",
+                     "version":  "1.4.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DiFFoZ-BepInEx_Faster_Load_AssetBundles_Patcher",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DiFFoZ-CompanyCruiserFix",
+                     "version":  "1.0.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DiFFoZ-HarmonyXTranspilerFix",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DiFFoZ-LethalPerformance",
+                     "version":  "1.2.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DiggC-CruiserImproved",
+                     "version":  "1.6.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DistinctBlaze-ColorfulEnemyVariety",
+                     "version":  "2.4.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DistinctBlaze-ColorfulSuitVariety",
+                     "version":  "1.3.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DistinctBlaze-DistinctEnemyVariety",
+                     "version":  "1.1.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "DistinctBlaze-DistinctMoonVariety",
+                     "version":  "3.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DistinctBlaze-ExtraEnemyVariety",
+                     "version":  "1.14.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "doggosuki-Huntdown",
+                     "version":  "1.6.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "dopadream-LLLHotreloadPatch",
+                     "version":  "1.0.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "dopadream-RebalancedMoonsBeta",
+                     "version":  "1.16.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "dopadream-SnowyWeeds",
+                     "version":  "1.4.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Drakorle-MoreItems",
+                     "version":  "1.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Drewzy-LuigiSTFU",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "DuskWise-WiseWilderness",
+                     "version":  "2.0.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Electric131-OuijaBoard",
+                     "version":  "1.5.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Entity378-SellBodiesFixed",
+                     "version":  "1.14.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Erk-ReviveCompany_Patched",
+                     "version":  "1.6.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "etherealemil-UsualScrap",
+                     "version":  "2.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Evaisa-FixPluginTypesSerialization",
+                     "version":  "1.1.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Evaisa-HookGenPatcher",
+                     "version":  "0.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Evaisa-LethalLib",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Evaisa-LethalThings",
+                     "version":  "0.10.13",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Fandovec03-Natural_selection",
+                     "version":  "0.4.19",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Fandovec03-NaturalSelectionLib",
+                     "version":  "0.8.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Fandovec03-SpiderPositionFix",
+                     "version":  "1.6.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "fayemoddinggroup-EyelessDogWalterJumpscare",
+                     "version":  "2.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "fiufki-fiufkis_Scrap_Beta",
+                     "version":  "2.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "fiufki-Orbits",
+                     "version":  "1.0.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "FlipMods-BetterStamina",
+                     "version":  "1.5.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FlipMods-MoreBlood",
+                     "version":  "1.0.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FlipMods-ObjectVolumeController",
+                     "version":  "1.1.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FlipMods-ReservedFlashlightSlot",
+                     "version":  "2.0.10",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FlipMods-ReservedItemSlotCore",
+                     "version":  "2.0.55",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FlipMods-ReservedWalkieSlot",
+                     "version":  "2.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FlipMods-TooManyEmotes",
+                     "version":  "2.3.17",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Flof-LethalLaser",
+                     "version":  "1.3.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Friskzips-True_Darkness_client",
+                     "version":  "1.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "fumiko-CullFactory",
+                     "version":  "2.0.11",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "FutureSavior-Boombox_Sync_Fix",
+                     "version":  "1.1.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Gemumoddo-LethalEmotesAPI",
+                     "version":  "1.18.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Generic_GMD-Generic_Doorscript",
+                     "version":  "1.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Generic_GMD-Generic_Interiors",
+                     "version":  "5.2.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Generic_GMD-Generic_Scraps",
+                     "version":  "1.1.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Generic_GMD-ManuLib",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "GHB-AdditionalSuits",
+                     "version":  "2.2.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Glacc-EasyVehicleFix",
+                     "version":  "0.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Glojam-Company_Hauler",
+                     "version":  "2.2.24",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "GokuRoyale-Goku_Suits",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Grug_Shakers-RadioFurnitureFixed",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "h410pr0-Halo_Alpha_9_Cosmetic_Pack",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Hamunii-AutoHookGenPatcher",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Hamunii-DetourContext_Dispose_Fix",
+                     "version":  "1.0.9",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Hamunii-TypeLoadExceptionFixer",
+                     "version":  "1.0.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Hardred-Hardreds_soundpack",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Hardy-LCMaxSoundsFix",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Hexnet111-SuitSaver",
+                     "version":  "1.2.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "HGG-JigglePhysicsPlugin",
+                     "version":  "1.1.21",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "hhumanoid-BoomboxBSide",
+                     "version":  "1.4.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "HolographicWings-LethalExpansion",
+                     "version":  "1.3.45",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "HomelessGinger-MaskedEnemyOverhaul",
+                     "version":  "3.1.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "IAmBatby-LethalLevelLoader",
+                     "version":  "1.7.11",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "InstanceWorld-Fortress",
+                     "version":  "1.2.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "InstanceWorld-Trenches",
+                     "version":  "1.6.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "IntegrityChaos-Diversity",
+                     "version":  "3.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "IntegrityChaos-GraphicsAPI",
+                     "version":  "1.0.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "IntegrityChaos-LCCutscene",
+                     "version":  "2.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ironbean-MeteorShowerChance",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "JacobG5-DestroyItemInSlotFix",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "JacobG5-JLL",
+                     "version":  "1.10.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "JacobG5-LostEnemyFix",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "JacobG5-ReverbTriggerFix",
+                     "version":  "0.4.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "JacobG5-SimpleCommands",
+                     "version":  "1.7.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "jockie-LethalExpansionCore",
+                     "version":  "1.3.15",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Jordo-NeedyCats",
+                     "version":  "1.2.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "KayNetsua-E_Gypt_Moon",
+                     "version":  "2.0.27",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Kittenji-Dont_Touch_Me",
+                     "version":  "1.2.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Kittenji-Football",
+                     "version":  "1.1.14",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Kittenji-Pinya",
+                     "version":  "1.0.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Koukycola-KoukysCustomSounds",
+                     "version":  "1.2.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Krayken-DynamicDeadline",
+                     "version":  "1.2.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "LegoMaster3650-FairGiants",
+                     "version":  "1.1.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "lethal_coder-31Arcadia_UPDATED",
+                     "version":  "1.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "lethal_coder-Advance_Features",
+                     "version":  "1.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "lethal_coder-Interior_Title_Cards",
+                     "version":  "1.3.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "LethalCompanyModding-LCUltrawide_Community",
+                     "version":  "1.3.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "LethalCompanyModding-RuntimeIcons",
+                     "version":  "0.3.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "LethalCompanyModding-VertexLibrary",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "LethalMatt-Bozoros",
+                     "version":  "2.9.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "LethalMatt-PlayZone",
+                     "version":  "1.1.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "LethalResonance-LETHAL_RESONANCE_MELTDOWN",
+                     "version":  "1.1.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "LethalResonance-LETHALRESONANCE",
+                     "version":  "4.7.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "llpaull-MineMineMineMod",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "loaforc-FacilityMeltdown",
+                     "version":  "2.7.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "loaforc-FacilityMeltdownExperimental",
+                     "version":  "2.6.15",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "loaforc-loaforcsSoundAPI",
+                     "version":  "2.0.13",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "loaforc-loaforcsSoundAPI_LethalCompany",
+                     "version":  "1.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Lordfirespeed-OdinSerializer",
+                     "version":  "2024.2.2700",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Lordfirespeed-YoutubeDLSharp",
+                     "version":  "1.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "luakite-Synthesis_Moon",
+                     "version":  "1.1.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "luakite-Vacuity_Moon",
+                     "version":  "1.0.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "luakite-Zeranos_Moon",
+                     "version":  "0.1.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "lufurrius-ConfigurableMoonPreview",
+                     "version":  "1.0.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "lukeprime-CrouchHUD",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Lunxara-BetterLaddersFixed",
+                     "version":  "2.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Lunxara-Lunxaras_Menu_Theme",
+                     "version":  "3.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "LustrousLuna-Eternal_Void",
+                     "version":  "1.1.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Magic_Wesley-Asteroid14",
+                     "version":  "3.2.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Core",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Dreck",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Galetry",
+                     "version":  "3.0.12",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Magic_Wesley-Infernis",
+                     "version":  "6.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Repress",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Wesleys_Ememy_Variants",
+                     "version":  "1.2.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Wesleys_Moons",
+                     "version":  "6.9.14",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-Wesleys_Skins",
+                     "version":  "1.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Magic_Wesley-Wesleys_Weathers",
+                     "version":  "1.2.11",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Magic_Wesley-WesleysInteriors",
+                     "version":  "4.1.15",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Major_And_Skiz-MoreInteriors",
+                     "version":  "2.5.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "malco-Lategame_Upgrades",
+                     "version":  "3.14.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mattymatty-AdditionalNetworking",
+                     "version":  "2.4.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mattymatty-AsyncLoggers",
+                     "version":  "2.2.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mattymatty-EntranceTeleportOptimizations",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mattymatty-FurnitureLock",
+                     "version":  "1.4.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "mattymatty-LandFromOrbit",
+                     "version":  "1.1.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "mattymatty-LobbyControl",
+                     "version":  "2.5.12",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mattymatty-Matty_Fixes",
+                     "version":  "1.1.41",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mattymatty-MonkeyInjectionLibrary",
+                     "version":  "1.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MaxWasUnavailable-LethalModDataLib",
+                     "version":  "1.2.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mborsh-Entrance_Blocker",
+                     "version":  "1.0.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "mborsh-Habitat_Interior",
+                     "version":  "1.2.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MeatBallDemon-VileVendingMachine",
+                     "version":  "1.1.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MegaPiggy-BuyableShotgun",
+                     "version":  "1.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MegaPiggy-BuyableShotgunShells",
+                     "version":  "1.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MelanieMelicious-MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod",
+                     "version":  "2.2.14",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MelanieMelicious-MelanieMelicious_Utility_Furniture_Pack",
+                     "version":  "2.0.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MetalPipeSFX-HornMoan",
+                     "version":  "2.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MonoDetour-MonoDetour",
+                     "version":  "0.7.15",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MonoDetour-MonoDetour_BepInEx_5",
+                     "version":  "0.7.15",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrgrm7-LethalCasino",
+                     "version":  "1.1.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MrHydralisk-SaveOurLoot",
+                     "version":  "1.5.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "MrKixcat-167_Afundus",
+                     "version":  "1.1.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MrKixcat-95_Gextradus",
+                     "version":  "5.0.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MrKixcat-Junkrooms",
+                     "version":  "4.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MrKixcat-Shatteredrooms",
+                     "version":  "2.1.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "mrov-ApparatusFix",
+                     "version":  "0.0.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-AutoScroll",
+                     "version":  "0.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-LightsOut",
+                     "version":  "0.2.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-MrovLib",
+                     "version":  "0.4.15",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-MrovWeathers",
+                     "version":  "0.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-TerminalFormatter",
+                     "version":  "0.3.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-TerminalUtils",
+                     "version":  "0.0.16",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-WeatherRegistry",
+                     "version":  "0.8.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "mrov-WeatherTweaks",
+                     "version":  "1.1.11",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "MysticDEV-BetterCruiserSync",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Nikki-GorgonzolaEnemyVariety",
+                     "version":  "1.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Nikki-NikkisMysteriousMoons",
+                     "version":  "1.1.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Nikki-Webley_Pyramid_Skin_Mod",
+                     "version":  "1.0.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "no00ob-LCSoundTool",
+                     "version":  "1.5.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "NotAtomicBomb-TerminalApi",
+                     "version":  "1.5.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "NotezyTeam-LethalMinNightly",
+                     "version":  "1.1.108",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "NotezyTeam-OopsAllFloodedFixed",
+                     "version":  "0.1.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "notnotnotswipez-MoreCompany",
+                     "version":  "1.14.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Ozone-Runtime_Netcode_Patcher",
+                     "version":  "0.2.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "pacoito-itolib",
+                     "version":  "0.9.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "pacoito-LethalElementsTheta",
+                     "version":  "1.3.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "pacoito-LethalLevelLoaderUpdated",
+                     "version":  "1.6.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "PancakeTeam-AllMyFellasDropship",
+                     "version":  "1.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "PanMan-LuigisMansionMoon_LLL",
+                     "version":  "1.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Piggy-CruiserMap",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Piggy-LC_Office",
+                     "version":  "2.3.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Plastered_Crab-Black_Mesa_Half_Life_Moon_Interior",
+                     "version":  "3.4.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "PowerFull-Ferangdalion",
+                     "version":  "1.0.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "PowerFull-Tauralis",
+                     "version":  "1.1.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "PsyKO345-MissedScrap",
+                     "version":  "1.1.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "PureFPSZac-NestFix",
+                     "version":  "1.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "qh3-EasyVehicle",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "qh3-MoreCruiser",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "quackandcheese-MirrorDecor",
+                     "version":  "1.3.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "qwbarch-Concentus",
+                     "version":  "2.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "qwbarch-Mirage",
+                     "version":  "1.29.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "qwbarch-MirageCore",
+                     "version":  "1.0.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "qwbarch-OpusDotNet",
+                     "version":  "1.0.30",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Rattenbonkers-TVLoader",
+                     "version":  "1.1.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "rectorado-84_Ascension",
+                     "version":  "1.4.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "rectorado-JKConfig",
+                     "version":  "1.0.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "rectorado-KenjiLib",
+                     "version":  "0.7.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "RickArg-Helmet_Cameras",
+                     "version":  "2.1.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Robi_H-Zeranos_Mansion",
+                     "version":  "1.0.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Rozebud-FOV_Adjust",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "RugbugRedfern-Skinwalkers",
+                     "version":  "5.0.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Rune580-LethalCompany_InputUtils",
+                     "version":  "0.7.13",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "s1ckboy-LethalHUD",
+                     "version":  "1.5.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Scandal-ScandalLib",
+                     "version":  "1.0.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Scandal-Scandals_Tweaks",
+                     "version":  "1.4.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ScienceBird-MoreCupboards",
+                     "version":  "1.4.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "ScienceBird-ScienceBird_Tweaks",
+                     "version":  "4.7.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ScienceBird-Universal_Radar",
+                     "version":  "1.2.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ScienceBird-Wither",
+                     "version":  "2.0.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Scintesto-Monster_Plushies",
+                     "version":  "1.2.9",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Scoops-LethalPhones",
+                     "version":  "1.3.23",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Scoops-LethalSponge",
+                     "version":  "1.4.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "scoopy-Scoopys_Variety_Mod",
+                     "version":  "1.2.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "seechela-Configurable_Quota",
+                     "version":  "1.6.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "sfDesat-Aquatis",
+                     "version":  "2.2.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "sfDesat-Celest",
+                     "version":  "1.1.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "sfDesat-Celestial_Tint",
+                     "version":  "1.5.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "sfDesat-ExpansionAssets",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "sfDesat-Explorations",
+                     "version":  "2.3.26",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "sfDesat-Orion",
+                     "version":  "2.1.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "sfDesat-ViewExtension",
+                     "version":  "1.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Shadow3layer-Teleport_With_Items",
+                     "version":  "1.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "ShaosilGaming-GeneralImprovements",
+                     "version":  "1.5.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Sigurd-CSync",
+                     "version":  "5.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SillySquad-CentralConfig",
+                     "version":  "0.16.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "SimonTendo-LCGoldScrapMod",
+                     "version":  "2.2.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SirTyler-BetterTeleporter",
+                     "version":  "1.2.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Skeleton_Studios-Welcome_To_Ooblterra",
+                     "version":  "2.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SlapItNow-LethalHands",
+                     "version":  "23.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Sligili-HDLethalCompany",
+                     "version":  "1.5.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Sligili-More_Emotes",
+                     "version":  "1.3.3",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Sniper1_1-MaterialAssetRestorerCore",
+                     "version":  "2.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Sniper1_1-WaterAssetRestorer",
+                     "version":  "2.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SoftDiamond-PushCompanyFork",
+                     "version":  "1.3.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SolidStone-SolidLib",
+                     "version":  "1.3.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Sophisticasean-KeysLockDoors",
+                     "version":  "1.1.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SpaceGhost-BloodAndGrime_Suits",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SpookyBuddy-BreakableSnowmen",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SpookyBuddy-CustomOutsideObjects",
+                     "version":  "1.3.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "SpookyBuddy-MapImprovements",
+                     "version":  "0.9.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Spyci-CozyImprovements",
+                     "version":  "1.2.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Steven-Custom_Boombox_Music",
+                     "version":  "1.4.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "sunnobunno-YippeeMod",
+                     "version":  "1.2.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "super_fucking_cool_and_badass_team-Biodiversity",
+                     "version":  "0.2.9",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "SurfacedTeam-Surfaced",
+                     "version":  "1.7.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "SylviBlossom-TerminalConflictFix",
+                     "version":  "1.2.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "taffyko-BetterSprayPaint",
+                     "version":  "2.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "TeamXiaolan-DawnLib",
+                     "version":  "0.9.25",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Terraformer9x-TerrasScrap",
+                     "version":  "81.4.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "TestAccount666-GoodItemScan",
+                     "version":  "2.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "TestAccount666-PoisonPuffer",
+                     "version":  "1.3.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "TestAccount666-ShipWindows",
+                     "version":  "2.10.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "TestAccount666-TestAccountCore",
+                     "version":  "1.18.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "TestAccount666-TestAccountVariety",
+                     "version":  "1.44.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "TheBeeTeam-PersistentPurchases",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Thefunkyteam-CustomEscapeMusicbyT",
+                     "version":  "1.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "theunknowncod3r-Scopophobia",
+                     "version":  "1.3.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "theunknowncod3r-The_Fiend_Fork",
+                     "version":  "1.1.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "TheWildSkelaah-3Bilge",
+                     "version":  "2.4.6",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Thorlar-HealthStation",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "tinyhoot-ShipLoot",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Tolian-13Kast",
+                     "version":  "1.1.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Tolian-Celestria",
+                     "version":  "1.0.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Tolian-Harloth",
+                     "version":  "0.6.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Tolian-Maritopia",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Tolian-Redfen",
+                     "version":  "1.0.7",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Tolian-Tomb",
+                     "version":  "0.3.5",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Tolian-Zenit",
+                     "version":  "1.1.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "TwinDimensionalProductions-CoilHeadStare",
+                     "version":  "1.1.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Unyucord-TransmitPunctuation",
+                     "version":  "1.0.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "v0xx-DiversityNoFloppy",
+                     "version":  "1.0.4",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "v0xx-TerraMesh",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Verity-3rdPerson",
+                     "version":  "1.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Verity-TooManySuits",
+                     "version":  "2.0.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "VirusTLNR-MaskedInvisFix",
+                     "version":  "0.0.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "ViViKo-NoSellLimit",
+                     "version":  "1.0.1",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "WaterGun-V70PoweredLights_Fix",
+                     "version":  "1.2.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Wexop-RandomEnemiesSize",
+                     "version":  "1.1.20",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Wexop-TheThing",
+                     "version":  "1.0.8",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "WhiteSpike-Interactive_Terminal_API",
+                     "version":  "1.3.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "WhiteSpike-Moon_Day_Speed_Multiplier_Patcher",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "willis81808-LethalSettings",
+                     "version":  "1.4.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "windblownleaves-ProblematicPilotry",
+                     "version":  "1.3.7",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "woah25-LethalEscapeUpdated",
+                     "version":  "2.5.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Wolf11221-SpaceShipDoor",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "x753-Mimics",
+                     "version":  "2.7.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "x753-More_Suits",
+                     "version":  "1.5.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "xilophor-LethalNetworkAPI",
+                     "version":  "3.4.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "xilophor-StaticNetcodeLib",
+                     "version":  "1.2.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "XuXiaolan-BigPresent",
+                     "version":  "1.0.5",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "XuXiaolan-CodeRebirth",
+                     "version":  "1.6.9",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "XuXiaolan-CodeRebirthLib",
+                     "version":  "0.9.8",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "XuXiaolan-ReXuvination",
+                     "version":  "1.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "XuXiaolan-SoftMaskKiller",
+                     "version":  "0.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Y4NGZ313-BloodVFX",
+                     "version":  "1.0.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Yorimor-CustomStoryLogs",
+                     "version":  "1.6.0",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zaggy1024-OpenBodyCams",
+                     "version":  "3.0.12",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zaggy1024-PathfindingLagFix",
+                     "version":  "2.4.2",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zaggy1024-PathfindingLib",
+                     "version":  "2.4.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zaggy1024-RagdollDesyncFix",
+                     "version":  "0.0.2",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Zaggy1024-SmartEnemyPathfinding",
+                     "version":  "0.0.4",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "zealsprince-Locker",
+                     "version":  "1.6.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zehs-HoharderSkin",
+                     "version":  "2.1.0",
+                     "enabled":  false
+                 },
+                 {
+                     "name":  "Zehs-KidnapperFoxSettings",
+                     "version":  "1.0.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zehs-SellMyScrap",
+                     "version":  "1.15.3",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zehs-Whiteboard",
+                     "version":  "1.3.1",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zingar-Atlas_Abyss",
+                     "version":  "1.2.6",
+                     "enabled":  true
+                 },
+                 {
+                     "name":  "Zingar-SecretLabs",
+                     "version":  "3.4.5",
+                     "enabled":  false
+                 }
+             ]
+}

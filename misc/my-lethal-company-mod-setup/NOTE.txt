@@ -1,0 +1,9 @@
+this folder shud be synced too, i deleted several .wav's from it that were by default there so need carter's setup to end up like that too 
+
+C:\Users\lando's pc\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default-extras\BepInEx\plugins\Koukycola-KoukysCustomSounds\CustomSounds\KoukysCustomSounds
+
+these two files as well need to be synced/replaced to their right locations on my friend's (carter's) computer
+
+C:\Users\lando's pc\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default-extras\BepInEx\config\controls\com.weliveinasociety.CustomEmotesAPI.EmotesInputSettings.json
+
+C:\Users\lando's pc\AppData\LocalLow\ZeekerssRBLX\Lethal Company\TooManyEmotes_LocalSaveData

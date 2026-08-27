@@ -9,7 +9,7 @@ $ScriptDir = $PSScriptRoot
 $ToolDir = Split-Path $ScriptDir -Parent
 $Root = Split-Path $ToolDir -Parent
 $Passover = Join-Path $Root "passover"
-$StateFile = Join-Path $ToolDir "expected-profile-state.json"
+$StateFile = Join-Path $Passover "profile-configs-n-customs.json"
 $RepoRoot = (Resolve-Path (Join-Path $Root "..\..")).Path
 
 $Profile = Join-Path $env:APPDATA "Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\$ProfileName"
@@ -324,7 +324,7 @@ if (Test-Path -LiteralPath $StateFile) {
 }
 
 if ($StateChanged) {
-    [void]$AllChanges.Add("MODIFY  expected-profile-state.json")
+    [void]$AllChanges.Add("MODIFY  profile-configs-n-customs.json")
 }
 
 Write-Host ""

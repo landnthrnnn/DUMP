@@ -9,7 +9,7 @@ $ScriptDir = $PSScriptRoot
 $ToolRoot = Split-Path $ScriptDir -Parent
 $ProjectRoot = Split-Path $ToolRoot -Parent
 $Passover = Join-Path $ProjectRoot "passover"
-$StateFile = Join-Path $ProjectRoot "landn-tools\expected-profile-state.json"
+$StateFile = Join-Path $Passover "profile-configs-n-customs.json"
 
 $Profile = Join-Path $env:APPDATA `
     "Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default-extras"
@@ -78,7 +78,7 @@ function Read-ModState {
 function Test-ProfileState {
 
     if (-not (Test-Path -LiteralPath $StateFile)) {
-        Fail "expected-profile-state.json is missing."
+        Fail "profile-configs-n-customs.json is missing."
     }
 
     if (-not (Test-Path -LiteralPath $ModsYml)) {

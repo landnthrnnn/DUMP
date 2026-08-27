@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 $RepoUrl = "https://github.com/landnthrnnn/DUMP.git"
@@ -248,7 +248,7 @@ try {
         (Join-Path $projectRoot "carter-tools\update.bat"),
         (Join-Path $projectRoot "carter-tools\scripts\update.ps1"),
         (Join-Path $projectRoot "passover"),
-        (Join-Path $projectRoot "landn-tools\expected-profile-state.json")
+        (Join-Path $projectRoot "passover\profile-configs-n-customs.json")
     )
 
     foreach ($path in $required) {

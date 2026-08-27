@@ -1,0 +1,21 @@
+{
+    "comment": "An addon script that plays music when you take the Apparatus. This script is designed to be used with the Default script",
+    "isAddon": true,
+    "volumeGroups": [],
+    "scriptEvents": [
+        {
+            "comment": "Plays music when you take the Apparatus",
+			"scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+			"overlapHandling": "OverrideTag",
+			"tag": "EscapeMusic",
+            "conditions": [],
+            "musicNames": [
+                "ItsPizzaTime.ogg",
+                "TheDeathThatIDeservioli.ogg",
+                "ByeByeThere.ogg",
+                "ThousandMarch.ogg"
+            ]
+        }
+    ]
+}

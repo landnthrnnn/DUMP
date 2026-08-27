@@ -244,10 +244,10 @@ try {
 
     $required = @(
         (Join-Path $projectRoot "carter-tools\pull-in.bat"),
-        (Join-Path $projectRoot "carter-tools\Pull-In.ps1"),
+        (Join-Path $projectRoot "carter-tools\scripts\pull-in.ps1"),
         (Join-Path $projectRoot "carter-tools\update.bat"),
-        (Join-Path $projectRoot "carter-tools\Install-Carter-Overlay.ps1"),
-        (Join-Path $projectRoot "passover-to-carter"),
+        (Join-Path $projectRoot "carter-tools\scripts\update.ps1"),
+        (Join-Path $projectRoot "passover"),
         (Join-Path $projectRoot "landn-tools\expected-profile-state.json")
     )
 

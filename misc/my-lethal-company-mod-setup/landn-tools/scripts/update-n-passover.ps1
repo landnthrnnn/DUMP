@@ -5,9 +5,10 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$ToolDir = $PSScriptRoot
+$ScriptDir = $PSScriptRoot
+$ToolDir = Split-Path $ScriptDir -Parent
 $Root = Split-Path $ToolDir -Parent
-$Passover = Join-Path $Root "passover-to-carter"
+$Passover = Join-Path $Root "passover"
 $StateFile = Join-Path $ToolDir "expected-profile-state.json"
 $RepoRoot = (Resolve-Path (Join-Path $Root "..\..")).Path
 
@@ -343,7 +344,7 @@ $AllChanges | ForEach-Object {
 
 Write-Host ""
 
-$Answer = Read-Host "Update passover-to-carter with these changes? [y/N]"
+$Answer = Read-Host "Update passover with these changes? [y/N]"
 
 if ($Answer -notmatch '^(?i)y(es)?$') {
     Write-Host "Cancelled. Nothing changed."

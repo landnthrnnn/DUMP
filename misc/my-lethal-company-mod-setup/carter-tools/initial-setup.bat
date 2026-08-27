@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Setup-Carter.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\initial-setup.ps1"
 set "ERR=%ERRORLEVEL%"
 
 echo.

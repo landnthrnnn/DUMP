@@ -1,0 +1,115 @@
+{
+    "comment": "The default behaviour of the mod before the 2.0.0 update (Shown in the preview video)",
+    "volumeGroups": [
+        {
+            "tag": "EscapeMusic",
+            "volumeLerpSpeed": 2,
+            "stoppingVolumeLerpSpeed": 0.5,
+            "volumeRules": [
+                {
+                    "comment": "Spectator volume",
+                    "volume": 0.5,
+                    "condition": {
+                        "conditionType": "Not",
+                        "condition": {
+                            "conditionType": "PlayerAlive"
+                        }
+                    }
+                },
+                {
+                    "comment": "Inside facility volume",
+                    "volume": 1,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Facility"
+                    }
+                },
+                {
+                    "comment": "Inside ship volume",
+                    "volume": 0.4,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Ship"
+                    }
+                },
+                {
+                    "comment": "Default volume",
+                    "volume": 0.7
+                }
+            ],
+            "volumeModifiers": [
+                {
+                    "comment": "Crouching volume scale",
+                    "volumeScale": 0.5,
+                    "condition": {
+                        "conditionType": "PlayerCrouching"
+                    }
+                }
+            ]
+        }
+    ],
+    "scriptEvents": [
+        {
+            "comment": "The music that plays during heavy weather when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "Or",
+                    "conditions": [
+                        {
+                            "conditionType": "Weather",
+                            "weather": "Eclipsed"
+                        },
+                        {
+                            "conditionType": "Weather",
+                            "weather": "Stormy"
+                        }
+                    ]
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ThousandMarch.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays when you're inside the facility when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "PlayerLocation",
+                    "location": "Facility"
+                }
+            ],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ByeByeThere.ogg"
+            ]
+        },
+        {
+            "comment": "The music that plays when the early leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [],
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ItsPizzaTime.ogg",
+                "TheDeathThatIDeservioli.ogg"
+            ]
+        },
+        {
+            "comment": "Stops the escape music when the ship takes off",
+            "scriptEventType": "StopMusic",
+            "gameEventType": "ShipTakeOff",
+            "conditions": [],
+            "targetTags": [
+                "EscapeMusic"
+            ]
+        }
+    ]
+}

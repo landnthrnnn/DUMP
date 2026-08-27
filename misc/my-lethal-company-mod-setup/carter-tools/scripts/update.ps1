@@ -5,9 +5,10 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$ToolRoot = $PSScriptRoot
+$ScriptDir = $PSScriptRoot
+$ToolRoot = Split-Path $ScriptDir -Parent
 $ProjectRoot = Split-Path $ToolRoot -Parent
-$Passover = Join-Path $ProjectRoot "passover-to-carter"
+$Passover = Join-Path $ProjectRoot "passover"
 $StateFile = Join-Path $ProjectRoot "landn-tools\expected-profile-state.json"
 
 $Profile = Join-Path $env:APPDATA `
@@ -301,7 +302,7 @@ try {
     Write-Host ""
 
     if (-not (Test-Path -LiteralPath $Passover)) {
-        Fail "passover-to-carter folder is missing."
+        Fail "passover folder is missing."
     }
 
     Test-ProfileState

@@ -18,9 +18,9 @@ try {
         Fail "Git was not found in PATH. Install Git for Windows first."
     }
 
-    $ProjectRoot = Split-Path $PSScriptRoot -Parent
+    $CarterTools = Split-Path $PSScriptRoot -Parent
 
-    $RepoRoot = (& git -C $ProjectRoot rev-parse --show-toplevel 2>$null).Trim()
+    $RepoRoot = (& git -C $CarterTools rev-parse --show-toplevel 2>$null).Trim()
     if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($RepoRoot)) {
         Fail "This carter-tools folder is not inside the DUMP Git repository."
     }

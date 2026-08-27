@@ -43,14 +43,26 @@ try {
         Fail "Expected branch 'main', found '$Branch'."
     }
 
-    & git -C $RepoRoot diff --quiet
+    $ProjectPath = "misc/my-lethal-company-mod-setup"
+
+    $LocalChanges = @(
+        & git -C $RepoRoot status --porcelain --untracked-files=all -- $ProjectPath
+    )
+
     if ($LASTEXITCODE -ne 0) {
-        Fail "Tracked local changes exist in the repository. Pull stopped."
+        Fail "Could not check the local sync folder for changes."
     }
 
-    & git -C $RepoRoot diff --cached --quiet
-    if ($LASTEXITCODE -ne 0) {
-        Fail "Staged local changes exist in the repository. Pull stopped."
+    if ($LocalChanges.Count -gt 0) {
+        Write-Host "Local changes exist inside my-lethal-company-mod-setup:"
+        Write-Host ""
+
+        $LocalChanges | ForEach-Object {
+            Write-Host $_
+        }
+
+        Write-Host ""
+        Fail "Pull stopped so Carter's local changes are not overwritten or mixed into Landon's sync."
     }
 
     $Before = (& git -C $RepoRoot rev-parse HEAD).Trim()

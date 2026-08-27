@@ -179,6 +179,26 @@ function Get-StateJson {
     )
 }
 
+function Update-PayloadManifest {
+    $Manifest = Join-Path $Passover "payload-sha256.txt"
+
+    $Lines = foreach ($File in (
+        Get-ChildItem -LiteralPath $Passover -File -Recurse -Force |
+        Where-Object {
+            $_.FullName -ne $Manifest
+        } |
+        Sort-Object FullName
+    )) {
+        $Rel = $File.FullName.Substring($Passover.Length).TrimStart("\")
+        $Hash = (Get-FileHash -LiteralPath $File.FullName -Algorithm SHA256).Hash
+
+        "$Hash *$Rel"
+    }
+
+    $Lines |
+        Set-Content -LiteralPath $Manifest -Encoding UTF8
+}
+
 if (-not (Test-Path -LiteralPath $Profile)) {
     Fail "Profile missing: $Profile"
 }
@@ -329,127 +349,144 @@ if ($StateChanged) {
 
 Write-Host ""
 
+$PassoverUpdated = $false
+
 if ($AllChanges.Count -eq 0) {
     Write-Host "NO INVENTORIED CHANGES DETECTED."
     Write-Host "Passover already matches your live finalized setup."
+}
+else {
+    Write-Host "DETECTED CHANGES"
+    Write-Host "================"
+
+    $AllChanges | ForEach-Object {
+        Write-Host $_
+    }
+
+    Write-Host ""
+
+    $Answer = Read-Host "Update passover with these changes? [y/N]"
+
+    if ($Answer -match '^(?i)y(es)?$') {
+        foreach ($M in $ChangedMappings) {
+            Write-Host "Syncing $($M.Label)..."
+
+            Replace-Directory `
+                $M.Live `
+                $M.Stored `
+                -FilterConfig:$M.FilterConfig
+        }
+
+        if ($TmeChanged) {
+            New-Item `
+                -ItemType Directory `
+                -Path (Split-Path $TmeStored -Parent) `
+                -Force | Out-Null
+
+            Copy-Item `
+                -LiteralPath $TmeLive `
+                -Destination $TmeStored `
+                -Force
+        }
+
+        if ($StateChanged) {
+            $NewStateJson |
+                Set-Content -LiteralPath $StateFile -Encoding UTF8
+        }
+
+        $PassoverUpdated = $true
+
+        Write-Host ""
+        Write-Host "PASSOVER UPDATED."
+    }
+    else {
+        Write-Host "Passover update skipped."
+    }
+}
+
+# Always rebuild the payload manifest before checking Git. This keeps manual
+# additions/changes anywhere inside passover protected by the current hashes too.
+Update-PayloadManifest
+
+Write-Host ""
+Write-Host "Checking my-lethal-company-mod-setup for Git changes..."
+Write-Host ""
+
+Set-Location -LiteralPath $RepoRoot
+
+$ProjectPath = "misc/my-lethal-company-mod-setup"
+
+$ProjectStatus = @(
+    & git status --short --untracked-files=all -- $ProjectPath
+)
+
+if ($LASTEXITCODE -ne 0) {
+    Fail "git status failed."
+}
+
+if ($ProjectStatus.Count -eq 0) {
+    Write-Host "NO PROJECT FILE CHANGES DETECTED."
+    Write-Host "Everything is already committed."
     exit 0
 }
 
-Write-Host "DETECTED CHANGES"
-Write-Host "================"
-
-$AllChanges | ForEach-Object {
+$ProjectStatus | ForEach-Object {
     Write-Host $_
 }
 
 Write-Host ""
 
-$Answer = Read-Host "Update passover with these changes? [y/N]"
-
-if ($Answer -notmatch '^(?i)y(es)?$') {
-    Write-Host "Cancelled. Nothing changed."
-    exit 0
-}
-
-foreach ($M in $ChangedMappings) {
-    Write-Host "Syncing $($M.Label)..."
-
-    Replace-Directory `
-        $M.Live `
-        $M.Stored `
-        -FilterConfig:$M.FilterConfig
-}
-
-if ($TmeChanged) {
-    New-Item `
-        -ItemType Directory `
-        -Path (Split-Path $TmeStored -Parent) `
-        -Force | Out-Null
-
-    Copy-Item `
-        -LiteralPath $TmeLive `
-        -Destination $TmeStored `
-        -Force
-}
-
-if ($StateChanged) {
-    $NewStateJson |
-        Set-Content -LiteralPath $StateFile -Encoding UTF8
-}
-
-$Manifest = Join-Path $Passover "payload-sha256.txt"
-
-$Lines = foreach ($File in (
-    Get-ChildItem -LiteralPath $Passover -File -Recurse -Force |
-    Where-Object {
-        $_.FullName -ne $Manifest
-    } |
-    Sort-Object FullName
-)) {
-    $Rel = $File.FullName.Substring($Passover.Length).TrimStart("\")
-    $Hash = (Get-FileHash -LiteralPath $File.FullName -Algorithm SHA256).Hash
-
-    "$Hash *$Rel"
-}
-
-$Lines |
-    Set-Content -LiteralPath $Manifest -Encoding UTF8
-
-Write-Host ""
-Write-Host "PASSOVER UPDATED."
-Write-Host ""
-
-Set-Location -LiteralPath $RepoRoot
-
-git status --short -- "misc/my-lethal-company-mod-setup"
-
-Write-Host ""
-
-$Push = Read-Host "Commit and push these changes now? [y/N]"
+$Push = Read-Host "Commit and push all changes inside my-lethal-company-mod-setup now? [y/N]"
 
 if ($Push -notmatch '^(?i)y(es)?$') {
     Write-Host "Done locally. Nothing committed or pushed."
     exit 0
 }
 
-$Message = Read-Host "Commit message [Update Carter Lethal Company passover]"
-
-if ([string]::IsNullOrWhiteSpace($Message)) {
-    $Message = "Update Carter Lethal Company passover"
+$DefaultMessage = if ($PassoverUpdated) {
+    "Update Lethal Company sync setup and passover"
+}
+else {
+    "Update Lethal Company sync setup"
 }
 
-git add -- "misc/my-lethal-company-mod-setup"
+$Message = Read-Host "Commit message [$DefaultMessage]"
+
+if ([string]::IsNullOrWhiteSpace($Message)) {
+    $Message = $DefaultMessage
+}
+
+& git add -A -- $ProjectPath
 
 if ($LASTEXITCODE -ne 0) {
     Fail "git add failed."
 }
 
-git diff --cached --quiet
+& git diff --cached --quiet -- $ProjectPath
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "Nothing staged; no commit needed."
     exit 0
 }
 
-git commit -m $Message
+& git commit -m $Message -- $ProjectPath
 
 if ($LASTEXITCODE -ne 0) {
     Fail "git commit failed."
 }
 
-$Branch = (git branch --show-current).Trim()
+$Branch = (& git branch --show-current).Trim()
 
 if ([string]::IsNullOrWhiteSpace($Branch)) {
     Fail "Could not determine current Git branch."
 }
 
-git -c lfs.locksverify=false push origin $Branch
+& git -c lfs.locksverify=false push origin $Branch
 
 if ($LASTEXITCODE -ne 0) {
     Fail "git push failed. Local commit is preserved."
 }
 
 Write-Host ""
-Write-Host "SYNC + COMMIT + PUSH COMPLETE"
-Write-Host "Commit: $((git rev-parse HEAD).Trim())"
-
+Write-Host "COMMIT + PUSH COMPLETE"
+Write-Host "Commit: $((& git rev-parse HEAD).Trim())"

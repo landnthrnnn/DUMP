@@ -6,8 +6,9 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 $ToolRoot = $PSScriptRoot
-$Passover = Join-Path $ToolRoot "passover-to-carter"
-$StateFile = Join-Path $ToolRoot "expected-profile-state.json"
+$ProjectRoot = Split-Path $ToolRoot -Parent
+$Passover = Join-Path $ProjectRoot "passover-to-carter"
+$StateFile = Join-Path $ProjectRoot "landn-tools\expected-profile-state.json"
 
 $Profile = Join-Path $env:APPDATA `
     "Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default-extras"

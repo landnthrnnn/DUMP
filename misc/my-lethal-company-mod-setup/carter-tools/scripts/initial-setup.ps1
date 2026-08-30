@@ -27,6 +27,8 @@ function Find-GitExe {
         (Join-Path $env:LOCALAPPDATA "Programs\Git\cmd\git.exe")
     ) | Where-Object { $_ -and (Test-Path -LiteralPath $_ -PathType Leaf) }
 
+    $candidates = @($candidates)
+
     if ($candidates.Count -gt 0) {
         return $candidates[0]
     }
@@ -96,27 +98,31 @@ function Install-GitIfNeeded {
         Fail "winget is not available. Install Microsoft's App Installer or Git for Windows manually, then rerun setup."
     }
 
-    & winget install `
+    $wingetExe = $winget.Source
+
+    & $wingetExe install `
         --id Git.Git `
         --exact `
         --source winget `
         --scope user `
         --silent `
         --accept-source-agreements `
-        --accept-package-agreements
+        --accept-package-agreements | Out-Host
 
-    if ($LASTEXITCODE -ne 0) {
+    $installExitCode = $LASTEXITCODE
+    if ($installExitCode -ne 0) {
         Write-Host "User-scope install did not succeed; retrying the standard Git installer..."
 
-        & winget install `
+        & $wingetExe install `
             --id Git.Git `
             --exact `
             --source winget `
             --silent `
             --accept-source-agreements `
-            --accept-package-agreements
+            --accept-package-agreements | Out-Host
 
-        if ($LASTEXITCODE -ne 0) {
+        $installExitCode = $LASTEXITCODE
+        if ($installExitCode -ne 0) {
             Fail "Git installation failed."
         }
     }
@@ -209,7 +215,7 @@ try {
     else {
         Write-Host "Existing Git repo found. Verifying it..."
 
-        $remote = (& $gitExe -C $repoRoot remote get-url origin 2>$null).Trim()
+        $remote = ((@(& $gitExe -C $repoRoot remote get-url origin 2>$null) -join "`n").Trim())
         if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($remote)) {
             Fail "Existing repo has no readable origin remote."
         }
@@ -228,7 +234,7 @@ try {
             Fail "Could not set the sparse checkout path."
         }
 
-        $branch = (& $gitExe -C $repoRoot branch --show-current).Trim()
+        $branch = ((@(& $gitExe -C $repoRoot branch --show-current) -join "`n").Trim())
         if ($branch -ne "main") {
             & $gitExe -C $repoRoot checkout main
             if ($LASTEXITCODE -ne 0) {
@@ -257,7 +263,7 @@ try {
         }
     }
 
-    $head = (& $gitExe -C $repoRoot rev-parse HEAD).Trim()
+    $head = ((@(& $gitExe -C $repoRoot rev-parse HEAD) -join "`n").Trim())
 
     Write-Host ""
     Write-Host "============================================"

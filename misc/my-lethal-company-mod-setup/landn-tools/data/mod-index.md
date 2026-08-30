@@ -1,13 +1,13 @@
 ﻿# Lethal Company Mod Index
 
-- Exported: 08-27-26 01:33am
+- Exported: 08-29-26 05:05pm
 - Profile: Default-extras
 - Profile path: `C:\Users\lando's pc\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default-extras`
 - mods.yml: `C:\Users\lando's pc\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Default-extras\mods.yml`
 - Cache root: `C:\Users\lando's pc\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\cache`
 - Installed: 399
-- Enabled: 269
-- Disabled: 130
+- Enabled: 268
+- Disabled: 131
 
 | State | Package | Version | Package source/cache path |
 |---|---|---:|---|
@@ -38,7 +38,7 @@
 | Enabled | Azim-LethalPresents | 1.0.9 | `Not found in current Thunderstore cache` |
 | Disabled | Badham_Mods-SCPFoundationDungeon | 4.3.4 | `Not found in current Thunderstore cache` |
 | Enabled | BaronDrakula-MoreCounterplay | 1.5.1 | `Not found in current Thunderstore cache` |
-| Disabled | BatiSanka-YoutubeOnTV | 0.2.8 | `Not found in current Thunderstore cache` |
+| Disabled | BatiSanka-YoutubeOnTV | 0.2.10 | `Not found in current Thunderstore cache` |
 | Enabled | bcs4313-Cyber_Truck | 1.0.5 | `Not found in current Thunderstore cache` |
 | Disabled | bcs4313-Soul_Devourer_Enemy | 1.3.5 | `Not found in current Thunderstore cache` |
 | Disabled | Beaniebe-85_Reign | 1.3.2 | `Not found in current Thunderstore cache` |
@@ -113,7 +113,7 @@
 | Enabled | DiFFoZ-BepInEx_Faster_Load_AssetBundles_Patcher | 1.1.0 | `Not found in current Thunderstore cache` |
 | Disabled | DiFFoZ-CompanyCruiserFix | 1.0.5 | `Not found in current Thunderstore cache` |
 | Enabled | DiFFoZ-HarmonyXTranspilerFix | 1.1.0 | `Not found in current Thunderstore cache` |
-| Enabled | DiFFoZ-LethalPerformance | 1.2.6 | `Not found in current Thunderstore cache` |
+| Enabled | DiFFoZ-LethalPerformance | 1.3.0 | `Not found in current Thunderstore cache` |
 | Enabled | DiggC-CruiserImproved | 1.6.3 | `Not found in current Thunderstore cache` |
 | Disabled | DistinctBlaze-ColorfulEnemyVariety | 2.4.1 | `Not found in current Thunderstore cache` |
 | Enabled | DistinctBlaze-ColorfulSuitVariety | 1.3.1 | `Not found in current Thunderstore cache` |
@@ -148,7 +148,7 @@
 | Enabled | FlipMods-ReservedItemSlotCore | 2.0.55 | `Not found in current Thunderstore cache` |
 | Enabled | FlipMods-ReservedWalkieSlot | 2.0.7 | `Not found in current Thunderstore cache` |
 | Enabled | FlipMods-TooManyEmotes | 2.3.17 | `Not found in current Thunderstore cache` |
-| Enabled | Flof-LethalLaser | 1.3.6 | `Not found in current Thunderstore cache` |
+| Disabled | Flof-LethalLaser | 1.3.6 | `Not found in current Thunderstore cache` |
 | Disabled | Friskzips-True_Darkness_client | 1.0.2 | `Not found in current Thunderstore cache` |
 | Enabled | fumiko-CullFactory | 2.0.11 | `Not found in current Thunderstore cache` |
 | Enabled | FutureSavior-Boombox_Sync_Fix | 1.1.3 | `Not found in current Thunderstore cache` |
@@ -159,7 +159,7 @@
 | Enabled | Generic_GMD-ManuLib | 1.1.1 | `Not found in current Thunderstore cache` |
 | Enabled | GHB-AdditionalSuits | 2.2.5 | `Not found in current Thunderstore cache` |
 | Enabled | Glacc-EasyVehicleFix | 0.1.0 | `Not found in current Thunderstore cache` |
-| Disabled | Glojam-Company_Hauler | 2.2.24 | `Not found in current Thunderstore cache` |
+| Disabled | Glojam-Company_Hauler | 2.2.27 | `Not found in current Thunderstore cache` |
 | Enabled | GokuRoyale-Goku_Suits | 1.0.0 | `Not found in current Thunderstore cache` |
 | Enabled | Grug_Shakers-RadioFurnitureFixed | 1.1.0 | `Not found in current Thunderstore cache` |
 | Enabled | h410pr0-Halo_Alpha_9_Cosmetic_Pack | 1.0.1 | `Not found in current Thunderstore cache` |
@@ -173,7 +173,7 @@
 | Enabled | hhumanoid-BoomboxBSide | 1.4.1 | `Not found in current Thunderstore cache` |
 | Disabled | HolographicWings-LethalExpansion | 1.3.45 | `Not found in current Thunderstore cache` |
 | Disabled | HomelessGinger-MaskedEnemyOverhaul | 3.1.2 | `Not found in current Thunderstore cache` |
-| Enabled | IAmBatby-LethalLevelLoader | 1.7.11 | `Not found in current Thunderstore cache` |
+| Enabled | IAmBatby-LethalLevelLoader | 1.7.12 | `Not found in current Thunderstore cache` |
 | Disabled | InstanceWorld-Fortress | 1.2.0 | `Not found in current Thunderstore cache` |
 | Disabled | InstanceWorld-Trenches | 1.6.1 | `Not found in current Thunderstore cache` |
 | Disabled | IntegrityChaos-Diversity | 3.1.0 | `Not found in current Thunderstore cache` |
@@ -210,7 +210,7 @@
 | Enabled | loaforc-loaforcsSoundAPI | 2.0.13 | `Not found in current Thunderstore cache` |
 | Disabled | loaforc-loaforcsSoundAPI_LethalCompany | 1.0.2 | `Not found in current Thunderstore cache` |
 | Enabled | Lordfirespeed-OdinSerializer | 2024.2.2700 | `Not found in current Thunderstore cache` |
-| Disabled | Lordfirespeed-YoutubeDLSharp | 1.1.0 | `Not found in current Thunderstore cache` |
+| Disabled | Lordfirespeed-YoutubeDLSharp | 1.2.0 | `Not found in current Thunderstore cache` |
 | Disabled | luakite-Synthesis_Moon | 1.1.5 | `Not found in current Thunderstore cache` |
 | Disabled | luakite-Vacuity_Moon | 1.0.6 | `Not found in current Thunderstore cache` |
 | Disabled | luakite-Zeranos_Moon | 0.1.8 | `Not found in current Thunderstore cache` |
@@ -305,8 +305,8 @@
 | Disabled | RugbugRedfern-Skinwalkers | 5.0.0 | `Not found in current Thunderstore cache` |
 | Enabled | Rune580-LethalCompany_InputUtils | 0.7.13 | `Not found in current Thunderstore cache` |
 | Disabled | s1ckboy-LethalHUD | 1.5.2 | `Not found in current Thunderstore cache` |
-| Enabled | Scandal-ScandalLib | 1.0.3 | `Not found in current Thunderstore cache` |
-| Enabled | Scandal-Scandals_Tweaks | 1.4.4 | `Not found in current Thunderstore cache` |
+| Enabled | Scandal-ScandalLib | 1.0.8 | `Not found in current Thunderstore cache` |
+| Enabled | Scandal-Scandals_Tweaks | 1.4.5 | `Not found in current Thunderstore cache` |
 | Disabled | ScienceBird-MoreCupboards | 1.4.0 | `Not found in current Thunderstore cache` |
 | Enabled | ScienceBird-ScienceBird_Tweaks | 4.7.5 | `Not found in current Thunderstore cache` |
 | Enabled | ScienceBird-Universal_Radar | 1.2.4 | `Not found in current Thunderstore cache` |
@@ -329,7 +329,7 @@
 | Disabled | SillySquad-CentralConfig | 0.16.1 | `Not found in current Thunderstore cache` |
 | Enabled | SimonTendo-LCGoldScrapMod | 2.2.7 | `Not found in current Thunderstore cache` |
 | Disabled | SirTyler-BetterTeleporter | 1.2.2 | `Not found in current Thunderstore cache` |
-| Enabled | Skeleton_Studios-Welcome_To_Ooblterra | 2.0.1 | `Not found in current Thunderstore cache` |
+| Enabled | Skeleton_Studios-Welcome_To_Ooblterra | 2.2.1 | `Not found in current Thunderstore cache` |
 | Enabled | SlapItNow-LethalHands | 23.0.2 | `Not found in current Thunderstore cache` |
 | Enabled | Sligili-HDLethalCompany | 1.5.6 | `Not found in current Thunderstore cache` |
 | Disabled | Sligili-More_Emotes | 1.3.3 | `Not found in current Thunderstore cache` |
@@ -353,7 +353,7 @@
 | Disabled | Terraformer9x-TerrasScrap | 81.4.2 | `Not found in current Thunderstore cache` |
 | Enabled | TestAccount666-GoodItemScan | 2.1.0 | `Not found in current Thunderstore cache` |
 | Enabled | TestAccount666-PoisonPuffer | 1.3.0 | `Not found in current Thunderstore cache` |
-| Disabled | TestAccount666-ShipWindows | 2.10.0 | `Not found in current Thunderstore cache` |
+| Disabled | TestAccount666-ShipWindows | 2.11.1 | `Not found in current Thunderstore cache` |
 | Enabled | TestAccount666-TestAccountCore | 1.18.0 | `Not found in current Thunderstore cache` |
 | Disabled | TestAccount666-TestAccountVariety | 1.44.0 | `Not found in current Thunderstore cache` |
 | Enabled | TheBeeTeam-PersistentPurchases | 1.2.0 | `Not found in current Thunderstore cache` |

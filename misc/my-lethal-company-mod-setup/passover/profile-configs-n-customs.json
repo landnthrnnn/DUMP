@@ -1,6 +1,5 @@
 ﻿{
     "schema":  1,
-    "generated":  "2026-08-26T03:52:56.6841815-07:00",
     "profile":  "Default-extras",
     "modCount":  399,
     "mods":  [
@@ -141,7 +140,7 @@
                  },
                  {
                      "name":  "BatiSanka-YoutubeOnTV",
-                     "version":  "0.2.8",
+                     "version":  "0.2.10",
                      "enabled":  false
                  },
                  {
@@ -516,7 +515,7 @@
                  },
                  {
                      "name":  "DiFFoZ-LethalPerformance",
-                     "version":  "1.2.6",
+                     "version":  "1.3.0",
                      "enabled":  true
                  },
                  {
@@ -692,7 +691,7 @@
                  {
                      "name":  "Flof-LethalLaser",
                      "version":  "1.3.6",
-                     "enabled":  true
+                     "enabled":  false
                  },
                  {
                      "name":  "Friskzips-True_Darkness_client",
@@ -746,7 +745,7 @@
                  },
                  {
                      "name":  "Glojam-Company_Hauler",
-                     "version":  "2.2.24",
+                     "version":  "2.2.27",
                      "enabled":  false
                  },
                  {
@@ -816,7 +815,7 @@
                  },
                  {
                      "name":  "IAmBatby-LethalLevelLoader",
-                     "version":  "1.7.11",
+                     "version":  "1.7.12",
                      "enabled":  true
                  },
                  {
@@ -1001,7 +1000,7 @@
                  },
                  {
                      "name":  "Lordfirespeed-YoutubeDLSharp",
-                     "version":  "1.1.0",
+                     "version":  "1.2.0",
                      "enabled":  false
                  },
                  {
@@ -1476,12 +1475,12 @@
                  },
                  {
                      "name":  "Scandal-ScandalLib",
-                     "version":  "1.0.3",
+                     "version":  "1.0.8",
                      "enabled":  true
                  },
                  {
                      "name":  "Scandal-Scandals_Tweaks",
-                     "version":  "1.4.4",
+                     "version":  "1.4.5",
                      "enabled":  true
                  },
                  {
@@ -1596,7 +1595,7 @@
                  },
                  {
                      "name":  "Skeleton_Studios-Welcome_To_Ooblterra",
-                     "version":  "2.0.1",
+                     "version":  "2.2.1",
                      "enabled":  true
                  },
                  {
@@ -1716,7 +1715,7 @@
                  },
                  {
                      "name":  "TestAccount666-ShipWindows",
-                     "version":  "2.10.0",
+                     "version":  "2.11.1",
                      "enabled":  false
                  },
                  {

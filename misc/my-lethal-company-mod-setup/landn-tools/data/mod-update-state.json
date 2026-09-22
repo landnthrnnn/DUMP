@@ -1,13 +1,13 @@
 ﻿{
     "schema":  1,
     "profile":  "Default-extras",
-    "capturedAt":  "2026-08-27T00:54:22-07:00",
+    "capturedAt":  "2026-08-29T17:07:28-07:00",
     "packageCount":  399,
-    "enabledCount":  269,
-    "disabledCount":  130,
+    "enabledCount":  268,
+    "disabledCount":  131,
     "cacheRoot":  "%APPDATA%\\Thunderstore Mod Manager\\DataFolder\\LethalCompany\\cache",
     "passoverConfigRoot":  "passover\\profile\\BepInEx\\config",
-    "passoverManifestSha256":  "614AE8AE8ED6296B3AE5E0E6DA144204740E829B404DC2B53234027DD5968EEC",
+    "passoverManifestSha256":  "B8B96773D92E628D9595E30F7C3F7F5187C1E2021590ACA056B81292D5C91542",
     "mods":  [
                  {
                      "name":  "4902-Cruiser_Additions",
@@ -173,7 +173,7 @@
                  },
                  {
                      "name":  "BatiSanka-YoutubeOnTV",
-                     "version":  "0.2.8",
+                     "version":  "0.2.10",
                      "enabled":  false,
                      "cacheRelativePath":  null
                  },
@@ -623,7 +623,7 @@
                  },
                  {
                      "name":  "DiFFoZ-LethalPerformance",
-                     "version":  "1.2.6",
+                     "version":  "1.3.0",
                      "enabled":  true,
                      "cacheRelativePath":  null
                  },
@@ -834,7 +834,7 @@
                  {
                      "name":  "Flof-LethalLaser",
                      "version":  "1.3.6",
-                     "enabled":  true,
+                     "enabled":  false,
                      "cacheRelativePath":  null
                  },
                  {
@@ -899,7 +899,7 @@
                  },
                  {
                      "name":  "Glojam-Company_Hauler",
-                     "version":  "2.2.24",
+                     "version":  "2.2.27",
                      "enabled":  false,
                      "cacheRelativePath":  null
                  },
@@ -983,7 +983,7 @@
                  },
                  {
                      "name":  "IAmBatby-LethalLevelLoader",
-                     "version":  "1.7.11",
+                     "version":  "1.7.12",
                      "enabled":  true,
                      "cacheRelativePath":  null
                  },
@@ -1205,7 +1205,7 @@
                  },
                  {
                      "name":  "Lordfirespeed-YoutubeDLSharp",
-                     "version":  "1.1.0",
+                     "version":  "1.2.0",
                      "enabled":  false,
                      "cacheRelativePath":  null
                  },
@@ -1775,13 +1775,13 @@
                  },
                  {
                      "name":  "Scandal-ScandalLib",
-                     "version":  "1.0.3",
+                     "version":  "1.0.8",
                      "enabled":  true,
                      "cacheRelativePath":  null
                  },
                  {
                      "name":  "Scandal-Scandals_Tweaks",
-                     "version":  "1.4.4",
+                     "version":  "1.4.5",
                      "enabled":  true,
                      "cacheRelativePath":  null
                  },
@@ -1919,7 +1919,7 @@
                  },
                  {
                      "name":  "Skeleton_Studios-Welcome_To_Ooblterra",
-                     "version":  "2.0.1",
+                     "version":  "2.2.1",
                      "enabled":  true,
                      "cacheRelativePath":  null
                  },
@@ -2063,7 +2063,7 @@
                  },
                  {
                      "name":  "TestAccount666-ShipWindows",
-                     "version":  "2.10.0",
+                     "version":  "2.11.1",
                      "enabled":  false,
                      "cacheRelativePath":  null
                  },
@@ -20839,7 +20839,7 @@
                         },
                         {
                             "path":  "AsyncLoggers\\LogLevels.cfg",
-                            "sha256":  "EB7D8451ED4CED183867B77B1524A705DA9FB4A3C663C55613816A7F86771E5D",
+                            "sha256":  "2721B8AD497E8353334136D203553879B1930D6FBEC25EF6A36A7AE0DF224F51",
                             "size":  88858,
                             "kind":  "cfg",
                             "settings":  [
@@ -76669,8 +76669,8 @@
                         },
                         {
                             "path":  "MapImprovements.cfg",
-                            "sha256":  "95768475B436207DB2241A429138F8F2ABF7D9E91C59DF69581187B1BF789DFF",
-                            "size":  15110,
+                            "sha256":  "76C8F91CC032C0F3C6F5048C191185B7E8800901536EE15BAEC1B7156A70F2F4",
+                            "size":  15126,
                             "kind":  "cfg",
                             "settings":  [
                                              {
@@ -81609,8 +81609,8 @@
                         },
                         {
                             "path":  "mattymatty.MattyFixes.cfg",
-                            "sha256":  "E4E298D7AE1580B6EE80938E8DC484D39F8E96ED700288992E637955B0CD53C1",
-                            "size":  148652,
+                            "sha256":  "0D4BB32780282BD382BF6DF74C9A639C9D846C319BE744040AEB71D3FAC7AE3F",
+                            "size":  148570,
                             "kind":  "cfg",
                             "settings":  [
                                              {
@@ -81902,31 +81902,11 @@
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "DawnLib|usual_scrap.Crowbar",
+                                                 "key":  "DawnLib|usual_scrap.Vintage Candy",
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "DawnLib|usual_scrap.Frigid Capsule",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "DawnLib|usual_scrap.Bloody Capsule",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "DawnLib|usual_scrap.Padlock",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "DawnLib|usual_scrap.Sizable Scissors",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "DawnLib|usual_scrap.Golden Ticket of Exchange",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "DawnLib|usual_scrap.Ticket of Exchange",
+                                                 "key":  "DawnLib|usual_scrap.Sledgehammer",
                                                  "value":  "default"
                                              },
                                              {
@@ -81934,15 +81914,35 @@
                                                  "value":  "default"
                                              },
                                              {
+                                                 "key":  "DawnLib|usual_scrap.Crowbar",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "DawnLib|usual_scrap.Padlock",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "DawnLib|usual_scrap.Ticket of Exchange",
+                                                 "value":  "default"
+                                             },
+                                             {
                                                  "key":  "DawnLib|usual_scrap.Rose",
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "DawnLib|usual_scrap.Vintage Candy",
+                                                 "key":  "DawnLib|usual_scrap.Bloody Capsule",
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "DawnLib|usual_scrap.Sledgehammer",
+                                                 "key":  "DawnLib|usual_scrap.Sizable Scissors",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "DawnLib|usual_scrap.Frigid Capsule",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "DawnLib|usual_scrap.Golden Ticket of Exchange",
                                                  "value":  "default"
                                              },
                                              {
@@ -82462,10 +82462,6 @@
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "LethalLevelLoader|LuigisMansion.Ghost Food",
-                                                 "value":  "default"
-                                             },
-                                             {
                                                  "key":  "LethalLevelLoader|LuigisMansion.Frying Pan",
                                                  "value":  "default"
                                              },
@@ -82522,15 +82518,7 @@
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "LethalLevelLoader|LuigisMansion.Marios Shoe",
-                                                 "value":  "default"
-                                             },
-                                             {
                                                  "key":  "LethalLevelLoader|LuigisMansion.Marios Star",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "LethalLevelLoader|LuigisMansion.Ghost Portrait",
                                                  "value":  "default"
                                              },
                                              {
@@ -82539,10 +82527,6 @@
                                              },
                                              {
                                                  "key":  "LethalLevelLoader|LuigisMansion.Poison Mushroom",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "LethalLevelLoader|LuigisMansion.Poltergust 3000",
                                                  "value":  "default"
                                              },
                                              {
@@ -82555,10 +82539,6 @@
                                              },
                                              {
                                                  "key":  "LethalLevelLoader|LuigisMansion.Toilet Paper",
-                                                 "value":  "default"
-                                             },
-                                             {
-                                                 "key":  "LethalLevelLoader|LuigisMansion.Tomato",
                                                  "value":  "default"
                                              },
                                              {
@@ -82583,6 +82563,26 @@
                                              },
                                              {
                                                  "key":  "LethalLevelLoader|LuigisMansion.Fancy Wine",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "LethalLevelLoader|LuigisMansion.Ghost Food",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "LethalLevelLoader|LuigisMansion.Marios Shoe",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "LethalLevelLoader|LuigisMansion.Ghost Portrait",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "LethalLevelLoader|LuigisMansion.Poltergust 3000",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "LethalLevelLoader|LuigisMansion.Tomato",
                                                  "value":  "default"
                                              },
                                              {
@@ -86542,6 +86542,10 @@
                                                  "value":  "true"
                                              },
                                              {
+                                                 "key":  "Unknown.Frigid Capsule",
+                                                 "value":  "default"
+                                             },
+                                             {
                                                  "key":  "Unknown.LaserGun",
                                                  "value":  "default"
                                              },
@@ -87122,11 +87126,23 @@
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "Vanilla.clipboard",
+                                                 "key":  "Vanilla.Marios Shoe",
                                                  "value":  "default"
                                              },
                                              {
-                                                 "key":  "Vanilla.Sticky note",
+                                                 "key":  "Vanilla.Tomato",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "Vanilla.Poltergust 3000",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "Vanilla.Ghost Portrait",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "Vanilla.Ghost Food",
                                                  "value":  "default"
                                              },
                                              {
@@ -87483,6 +87499,14 @@
                                              },
                                              {
                                                  "key":  "Vanilla.Body",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "Vanilla.clipboard",
+                                                 "value":  "default"
+                                             },
+                                             {
+                                                 "key":  "Vanilla.Sticky note",
                                                  "value":  "default"
                                              },
                                              {
@@ -90146,8 +90170,8 @@
                         },
                         {
                             "path":  "Mirage.Items.cfg",
-                            "sha256":  "F134151A4479473B0D9D85C6783DC1F6E18A8EA08243A3FC35A1BE1A434A1DCB",
-                            "size":  65281,
+                            "sha256":  "E37DDD9BC89BEB985D6DE29A22DE8FEA7D845049F69596260833C9DE1F86E22D",
+                            "size":  26523,
                             "kind":  "cfg",
                             "settings":  [
                                              {
@@ -98195,7 +98219,7 @@
                         },
                         {
                             "path":  "PowerFull.Tauralis.cfg",
-                            "sha256":  "C42270046CD54EA9AD075868A483991FE75B6FB406D5FA2DC3ADB177C94638B2",
+                            "sha256":  "3938F3E0BB9EF191869A64411B8BD527BCB2D8A07B34184EB9F63F4B74EC733E",
                             "size":  3135,
                             "kind":  "cfg",
                             "settings":  [
@@ -98245,11 +98269,11 @@
                                              },
                                              {
                                                  "key":  "TauralisConfig Options.281 Tauralis | Inside Enemy Spawn Curve",
-                                                 "value":  "0.00, -3.00;0.11, -0.22;0.22, -0.95;0.33, -0.23;0.44, 1.92;0.56, 4.48;0.67, 6.80;0.78, 8.81;0.89, 11.12;1.00, 15.00"
+                                                 "value":  "0.00, -3.00;0.11, -0.22;0.22, -0.95;0.33, -0.22;0.44, 1.93;0.56, 4.47;0.67, 6.79;0.78, 8.81;0.89, 11.12;1.00, 15.00"
                                              },
                                              {
                                                  "key":  "TauralisConfig Options.281 Tauralis | Outside Enemy Spawn Curve",
-                                                 "value":  "0.00, -2.89;0.11, -2.39;0.22, -1.46;0.33, -0.35;0.44, 1.46;0.56, 3.50;0.67, 4.69;0.78, 5.13;0.89, 4.05;1.00, 2.41"
+                                                 "value":  "0.00, -2.89;0.11, -2.39;0.22, -1.46;0.33, -0.35;0.44, 1.47;0.56, 3.49;0.67, 4.69;0.78, 5.13;0.89, 4.05;1.00, 2.41"
                                              },
                                              {
                                                  "key":  "TauralisConfig Options.281 Tauralis | Daytime Enemy Spawn Curve",
@@ -127923,7 +127947,7 @@
                         },
                         {
                             "path":  "Starlancer.StarlancerZero.cfg",
-                            "sha256":  "5BB324A8557D90584389D647337813A13253798A12B432D268CBDB458934A2B8",
+                            "sha256":  "8B02F6E8EF97C7C4C3DBD72CEECCF701843123552DD68B4602DD1BF7D0B8A1B4",
                             "size":  2970,
                             "kind":  "cfg",
                             "settings":  [
@@ -127973,7 +127997,7 @@
                                              },
                                              {
                                                  "key":  "StarlancerZeroConfig Options.Anomaly | Inside Enemy Spawn Curve",
-                                                 "value":  "0.00, -3.00;0.11, -1.64;0.22, 1.36;0.33, 5.62;0.44, 7.78;0.56, 8.24;0.67, 10.36;0.78, 13.08;0.89, 14.51;1.00, 15.00"
+                                                 "value":  "0.00, -3.00;0.11, -1.64;0.22, 1.37;0.33, 5.63;0.44, 7.78;0.56, 8.24;0.67, 10.35;0.78, 13.08;0.89, 14.51;1.00, 15.00"
                                              },
                                              {
                                                  "key":  "StarlancerZeroConfig Options.Anomaly | Outside Enemy Spawn Curve",
@@ -127981,7 +128005,7 @@
                                              },
                                              {
                                                  "key":  "StarlancerZeroConfig Options.Anomaly | Daytime Enemy Spawn Curve",
-                                                 "value":  "0.00, 2.27;0.11, 1.01;0.22, -0.33;0.33, -4.23;0.44, -9.71;0.56, -12.79;0.67, -14.43;0.78, -14.88;0.89, -14.81;1.00, -14.82"
+                                                 "value":  "0.00, 2.27;0.11, 1.01;0.22, -0.33;0.33, -4.24;0.44, -9.72;0.56, -12.78;0.67, -14.43;0.78, -14.88;0.89, -14.81;1.00, -14.82"
                                              },
                                              {
                                                  "key":  "StarlancerZeroConfig Options.Anomaly | Disable Unlock Requirements",
@@ -127995,7 +128019,7 @@
                         },
                         {
                             "path":  "Starlancer.Triskelion.cfg",
-                            "sha256":  "60E321C5DCE775A27447DBF591396186098E12784578CDA5B48D26013996965A",
+                            "sha256":  "8D842630728921E79D50DD66754D5C841649AD6E245C8D1810343F541A9514BF",
                             "size":  2929,
                             "kind":  "cfg",
                             "settings":  [
@@ -128045,7 +128069,7 @@
                                              },
                                              {
                                                  "key":  "TriskelionConfig Options.27 Triskelion | Inside Enemy Spawn Curve",
-                                                 "value":  "0.00, -3.00;0.11, -0.39;0.22, 3.55;0.33, 4.74;0.44, 5.25;0.56, 7.03;0.67, 7.92;0.78, 8.28;0.89, 11.52;1.00, 15.00"
+                                                 "value":  "0.00, -3.00;0.11, -0.39;0.22, 3.55;0.33, 4.74;0.44, 5.26;0.56, 7.02;0.67, 7.92;0.78, 8.28;0.89, 11.52;1.00, 15.00"
                                              },
                                              {
                                                  "key":  "TriskelionConfig Options.27 Triskelion | Outside Enemy Spawn Curve",
@@ -128053,7 +128077,7 @@
                                              },
                                              {
                                                  "key":  "TriskelionConfig Options.27 Triskelion | Daytime Enemy Spawn Curve",
-                                                 "value":  "0.00, 2.27;0.11, 0.49;0.22, -1.42;0.33, -4.51;0.44, -8.21;0.56, -10.74;0.67, -12.60;0.78, -13.82;0.89, -14.48;1.00, -14.82"
+                                                 "value":  "0.00, 2.27;0.11, 0.49;0.22, -1.42;0.33, -4.52;0.44, -8.22;0.56, -10.73;0.67, -12.59;0.78, -13.82;0.89, -14.48;1.00, -14.82"
                                              },
                                              {
                                                  "key":  "TriskelionConfig Options.TriskelionScene | Allow Editing Config",
